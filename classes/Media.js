@@ -9,8 +9,8 @@ class Media{
     }
 
     summary(){
-        return `Title: ${title}, Year: ${year}, Genre: ${genre}`
+        return `Title: ${this.title}, Year: ${this.year}, Genre: ${this.genre}`
     }
 }
-// uncomment below to export it:
+
 module.exports = Media;
