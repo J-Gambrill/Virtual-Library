@@ -9,7 +9,7 @@ class Movie extends Media {
         super(duration)
         super(genre)
         super(title)
-        super(year)
+        
     }
 
     summary(){

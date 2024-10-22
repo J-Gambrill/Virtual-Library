@@ -8,6 +8,7 @@ class Music extends Media{
         super(title)
         super(year)
         super(genre)
+       
     }
 
     static shortestAlbum(songs) { //returns shortest song length
