@@ -1,14 +1,15 @@
 // import the Media class:
-const { Media } = require("./classes/media.js")
+const Media = require("./Media");
 
 // create your Movie class:
 class Movie extends Media {
-    constructor(director, rating, duration, genre, title, year){
+    constructor(title, year, genre, director, duration, rating){
+       
+        super( title, year, genre )
         this.director = director 
+        this.duration = duration
         this.rating = rating
-        super(duration)
-        super(genre)
-        super(title)
+        
         
     }
 

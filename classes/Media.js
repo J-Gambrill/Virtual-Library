@@ -6,6 +6,7 @@ class Media{
         this.title = title
         this.year = year
         this.genre = genre
+        Media.totalMediaCount++
 
     }
 

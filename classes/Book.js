@@ -1,14 +1,13 @@
 // import the Media class:
-const { Media } = require("./classes/media.js")
+const Media = require("./Media");
+
 // create your Book class:
 class Book extends Media{
-    constructor(author, numPages, rating, year, genre, title){
+    constructor(title, year, genre, author, numPages, rating) {
+        super(title, year, genre)
         this.author = author
         this.numPages = numPages
         this.rating = rating
-        super(year)
-        super(genre)
-        super(title)
         
     }
 
