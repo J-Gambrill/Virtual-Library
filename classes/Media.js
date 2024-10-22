@@ -5,7 +5,7 @@ class Media{
     constructor(title, year, genre){
         this.title = title
         this.year = year
-        this.genre = 
+        this.genre = genre
         totalMediaCount ++
     }
 

@@ -9,7 +9,7 @@ class Book extends Media{
         super(year)
         super(genre)
         super(title)
-        super(++totalMediaCount)
+        
     }
 
     summary(){
